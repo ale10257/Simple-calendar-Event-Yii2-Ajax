@@ -1,0 +1,72 @@
+#calendar-table {
+    background-color: #fff;
+    padding: 10px;
+}
+
+#calendar-table table {
+    width: 100%;
+}
+
+.span-info {
+    display: inline-block;
+    padding: 2px;
+}
+
+.span-info.success {
+    color: #316231;
+}
+
+.span-info.error {
+    color: #ae0f12;
+}
+
+.show-events {
+    cursor: pointer;
+}
+
+.data-events {
+    width: 20%;
+    vertical-align: top;
+    position: relative;
+}
+
+.data-events .fa {
+    position: absolute;
+    top: 5px;
+    cursor: pointer;
+}
+
+.data-events .fa.fa-pencil {
+    right: 25px;
+}
+
+.data-events .fa.fa-remove {
+    right: 5px;
+}
+
+#event-table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.modal-dialog {
+    width: 210mm;
+}
+
+.printSelected div {
+    display: none
+}
+
+.printSelected .printSelection {
+    display: block;
+}
+
+@media print {
+    .data-events .fa, .data-events a  {
+        display: none;
+    }
+    h4 {
+        font-weight: bold;
+        color: #ae0f12;
+    }
+}
