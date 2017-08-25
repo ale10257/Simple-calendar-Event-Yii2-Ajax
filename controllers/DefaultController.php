@@ -11,7 +11,7 @@ use yii\helpers\Url;
 
 class DefaultController extends Controller
 {
-    public function actionIndex($year = null, $month = null, $id = null)
+    public function actionIndex($year = null, $month = null)
     {
         $model = new CalendarEvent();
         $calendar = $this->createCalendarHtml($year, $month);
