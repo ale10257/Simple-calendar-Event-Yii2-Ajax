@@ -1,7 +1,6 @@
 <?php
 namespace app\modules\calendar\assets;
 
-
 class CalendarAsset extends \yii\web\AssetBundle
 {
     public $sourcePath = '@app/modules/calendar/assets';
